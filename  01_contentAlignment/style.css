@@ -1,0 +1,28 @@
+html, body, #app {
+  height: 100%;
+  margin: 0;
+}
+
+#app {
+  display:flex;
+  
+  /* flex-direction: Estou dizendo para o container que sempre serão 
+  ordenados na mesma linha*/
+  flex-direction: row;
+
+  /*align-items > É sempre contrário ao sentido que o 
+  'flex-direction' está organizado, neste caso ele alinha o
+  conteúdo verticalmente*/ 
+  align-items: flex-start;
+  
+  /*justify-content -> Tem sempre o mesmo sentido do 
+  'flex-direction' e neste caso alinha o conteúdo horizontalmente*/
+  justify-content: flex-start;
+}
+
+.box{
+  width: 60px;
+  height: 60px;
+  background: purple;
+  margin: 5px;
+}
