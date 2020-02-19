@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* box-sizing: Serve para impedir que o 'padding' aumente a largura de um
+  determinado componente, visto que o mesmo tem um acréscimo interno (perde de
+  largura) com este comando */
+}
+
+body{
+  background: #E6ECF0;
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
