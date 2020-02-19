@@ -1,0 +1,22 @@
+html, body, #app {
+  height: 100%;
+  margin: 0;
+}
+
+#app {
+  display:flex;
+
+  /* flex-wrap: Agrupa todo conteúdo até não caber mais, quando isso acontece
+  há uma quebra de linha */
+  flex-wrap: wrap;
+
+  /* align-content: Agrupa o conteúdo de linhas quebradas */
+  align-content: center;
+}
+
+.box{
+  width: 150px;
+  height: 60px;
+  background: purple;
+  margin: 5px;
+}
