@@ -1,0 +1,27 @@
+html, body, #app {
+  height: 100%;
+  margin: 0;
+}
+
+#app {
+  display:flex;
+}
+
+.box{
+  width: 300px;
+  height: 60px;
+  background: purple;
+  margin: 5px;
+
+  /* flex-grow: Serve para dizer que o conteúdo pode crescer para ocupar todo 
+  espaço disponível*/
+  flex-grow: 1;
+
+  /* flex-shrink: Serve para dizer se o conteúdo pode ou não ser reduzido a 
+  medida que a tela necessite */;
+  flex-shrink: 1;
+
+  /* flex: Engloba os dois anteriores. O primeiro valor sendo 'grow' e o 
+  segundo sendo 'shrink' */
+  flex: 1 0;
+}
