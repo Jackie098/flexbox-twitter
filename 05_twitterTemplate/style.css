@@ -318,3 +318,54 @@ div.wrapper-content aside.profile .images ul li {
   flex-shrink: 0;
   margin: 0 5px 5px 0;
 }
+
+div.wrapper-content .timeline {
+  flex-grow: 1;
+}
+
+div.wrapper-content aside.widgets {
+  width: 290px;
+  margin-top: 10px;
+}
+
+div.wrapper-content aside.widgets .widget {
+  background: #FFF;
+  padding: 15px;
+}
+
+div.wrapper-content aside.widgets .widget .title {
+  display: flex;
+  align-items: baseline;
+
+}
+
+div.wrapper-content aside.widgets .widget .title strong {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1F2226;
+}
+
+div.wrapper-content aside.widgets .widget .title a {
+  color: #3BB9E3;
+  font-size: 12px;
+  text-decoration: none;
+  position: relative;
+  padding-left: 10px;
+}
+
+div.wrapper-content aside.widgets .widget .title a::before {
+  content: "";
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: #222;
+  position: absolute;
+  left: 4px;
+  top: 6px;
+}
+
+div.wrapper-content aside.widgets ul li img {
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+}
