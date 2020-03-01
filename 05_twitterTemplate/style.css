@@ -321,6 +321,7 @@ div.wrapper-content aside.profile .images ul li {
 
 div.wrapper-content .timeline {
   flex-grow: 1;
+  background-color: #FFF;
 }
 
 div.wrapper-content aside.widgets {
@@ -364,8 +365,73 @@ div.wrapper-content aside.widgets .widget .title a::before {
   top: 6px;
 }
 
-div.wrapper-content aside.widgets ul li img {
-  height: 34px;
-  width: 34px;
+div.wrapper-content aside.widgets .follow ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+div.wrapper-content aside.widgets .follow ul li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #CCD6DD;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+div.wrapper-content aside.widgets .follow ul li:last-child{
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: 0;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile {
+  display: flex;
+  align-items: center;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile img {
+  height: 48px;
+  width: 48px;
   border-radius: 50%;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info strong {
+  font-size: 14px;
+  color: #1F2326;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info span {
+  font-weight: normal;
+  color: #9A9A9A;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info button {
+  height: 27px;
+  width: 90px;
+  margin-top: 4px;
+
+  font-weight: bold;
+  font-size: 14px;
+  color: #3BB9E3;
+  border: solid 1px #3BB9E3;
+  border-radius: 16px;
+  background: #FFF;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info button:hover{
+  background: #3BB9E3;
+  color: #FFF;
+  transition: 400ms;
+}
+
+div.wrapper-content aside.widgets .follow ul li > a {
+  color: #AAA;
+  text-decoration: none;
+  font-size: 14px;
 }
